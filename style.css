@@ -1,0 +1,175 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.my_menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: dodgerblue;
+}
+
+.menu li{
+    list-style: none;
+    width: 160px;
+    height: 50px;
+    background-color: #2196f3;
+    margin-left:  40px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+
+}
+.menu li:hover{
+    background-color: black;
+}
+.menu li a:hover{
+    color: aqua;
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+}
+.logo_li:hover{
+    background-color: #2196f3 ! important;
+}
+.logo_li a{
+    font-size: 20px;
+    background-color: orangered;
+}
+.logo_li a:hover{
+    color: white !important;
+}
+.menu ul li{
+    margin: 0px;
+    font-size: 12px;
+}
+.menu ul{
+    display: none;
+} 
+.menu li:hover ul{
+    display: block;
+}
+
+/* banner */
+#banner{
+    width: 100%;
+}
+#banner img{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+/* section */
+.section{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.section h1{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+.div_section {
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    float: left;
+}
+.div_section img{
+    width: 102%;
+}
+.div_section1 {
+    width: 30%;
+    height: 250px;
+    margin: 20px;
+    float: left;
+}
+.div_section1 img{
+    width: 85%;
+}
+.div_section2 {
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    float: left;
+}
+.div_section2 img{
+    width: 102%;
+    height: 200;
+}
+
+/*footer*/
+.footer{
+    position: absolute;
+    width: 100%;
+    margin-top: 150px;
+    height: auto;
+    background-color: black;
+}
+.footer_div{
+    width: 20%;
+    height:auto;
+    margin: 30px;
+    float: left;
+}
+.footer_div h1{
+    color: red;
+    
+}
+.footer_div p{
+    color: white;
+}
+.footer_div button{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+.footer_div ul li{
+    list-style: none;
+}
+.footer_div ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social_links{
+    color: white;
+
+}
+.footer1{
+    float: left;
+}
+.under_footer{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: white;
+
+}
+.footer1{
+    width: 50%;
+    float: left;
+}
+.footer1 p{
+    color: black;
+}
